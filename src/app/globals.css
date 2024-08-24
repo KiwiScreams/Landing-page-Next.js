@@ -51,3 +51,15 @@ body
   background: linear-gradient(to bottom, #fff, #80808014);
   overflow-x: hidden;
 }
+.notfound
+{
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.notfound a
+{
+  color: var(--tomato-clr);
+  text-decoration: underline;
+}
