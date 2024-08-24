@@ -8,6 +8,10 @@
   border: none;
   outline: none;
 }
+html, body
+{
+  scroll-behavior: smooth;
+}
 :root {
   --white-clr: #fff;
   --black-clr: #000;
