@@ -5,40 +5,40 @@ export default function FAQ() {
     {
       question: "the best financial accounting app ever!",
       answer:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis .",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis",
       background: "#ff5555",
       color: "#fff",
     },
     {
       question: "the best financial accounting app ever!",
       answer:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis .",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis",
       background: "#fff",
     },
     {
       question: "the best financial accounting app ever!",
       answer:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis .",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis",
       background: "#fff",
     },
     {
       question: "the best financial accounting app ever!",
       answer:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis .",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis",
       background: "#ff5555",
       color: "#fff",
     },
     {
       question: "the best financial accounting app ever!",
       answer:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis .",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis",
       background: "#ff5555",
       color: "#fff",
     },
     {
       question: "the best financial accounting app ever!",
       answer:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis .",
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum nobis",
       background: "#fff",
     },
   ];
