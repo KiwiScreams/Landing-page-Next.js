@@ -36,7 +36,7 @@ footer .logo li {
   gap: 10px;
   align-items: center;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
   footer {
     width: 96%;
     flex-direction: column;

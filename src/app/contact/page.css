@@ -4,6 +4,7 @@
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 input[type="text"],
 select,
@@ -17,12 +18,22 @@ textarea {
   margin-bottom: 16px;
   resize: vertical;
 }
-button.btn
-{
-    display: block;
-    margin: auto;
+button.btn {
+  display: block;
+  margin: auto;
 }
 .container {
   border-radius: 5px;
   padding: 20px;
+}
+@media screen and (max-width: 1200px) {
+  .contact-section img {
+    width: 400px;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contact-section img {
+    display: none;
+  }
 }
