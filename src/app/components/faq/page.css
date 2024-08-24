@@ -8,10 +8,9 @@
 }
 .faq-section h2,
 .faq-section h4,
-.faq-section span
-{
-    margin-bottom: 10px;
-    text-transform: uppercase;
+.faq-section span {
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 .faqs {
   display: flex;
@@ -24,4 +23,16 @@
   border-radius: 4px;
   padding: 30px;
   color: var(--black-clr);
+}
+@media screen and (max-width: 500px) {
+  .faqs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .faq-section .faq {
+    width: 100%;
+
+  }
 }
