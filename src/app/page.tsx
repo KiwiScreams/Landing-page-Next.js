@@ -15,9 +15,9 @@ export default function Home() {
               </p>
               <button>Get Started</button>
             </div>
-            <Image src="/line.png" alt="" width={400} height={300} />
+            <Image src="/line.png" alt="" width={400} height={300}  />
           </div>
-          <Image src="/phones.png" alt="" width={300} height={300} />
+          <Image src="/phones.png" alt="" width={600} height={700} className="img"/>
         </div>
         <div className="container">
           <div className="text-container">
@@ -36,10 +36,10 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <Image src="/phone1.png" alt="" width={300} height={300} />
+          <Image src="/phone1.png" alt="" width={600} height={700} className="img"/>
         </div>
         <div className="container reverse">
-          <Image src="/phone2.png" alt="" width={300} height={300} />
+          <Image src="/phone2.png" alt="" width={600} height={700} className="img"/>
           <div className="text-container">
             <div>
               <h1>make the best financial decisions</h1>

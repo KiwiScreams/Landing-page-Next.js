@@ -29,10 +29,14 @@ h4 {
   align-items: center;
   gap: 20px;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .reverse {
     flex-direction: row-reverse;
     margin: auto;
+  }
+  .home-section img.img {
+    width: 300px;
+    height: 300px;
   }
 }
 
