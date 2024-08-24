@@ -49,4 +49,5 @@ body
 {
   padding-bottom: 30px;
   background: linear-gradient(to bottom, #fff, #80808014);
+  overflow-x: hidden;
 }

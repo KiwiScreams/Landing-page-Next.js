@@ -5,9 +5,9 @@ header {
   align-items: center;
   padding: 20px 170px;
   padding-bottom: 0;
-  position: fixed;
+  /* position: fixed; */
   background-color: var(--white-clr);
-  top: 0;
+  /* top: 0; */
   z-index: 10;
 }
 header.scroll {
@@ -45,4 +45,36 @@ nav ul li a:hover::after {
 }
 nav ul li a.active-page {
   color: var(--tomato-clr);
+}
+@media screen and (max-width: 1000px) {
+  header {
+    padding: 10px 30px;
+    padding-bottom: 0;
+  }
+  header.scroll {
+    padding: 5px 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  header {
+    width: 100%;
+    padding: 0px;
+    padding-bottom: 0;
+    flex-direction: column;
+  }
+  header.scroll {
+    padding: 0px;
+  }
+  header nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  header button {
+    margin-top: 10px;
+    width: 100%;
+  }
+  header li a {
+    font-size: 14px;
+    padding: 5px;
+  }
 }

@@ -41,7 +41,8 @@ export default function Contact() {
             <button className="btn">Submit</button>
           </form>
         </div>
-        <Image src="/about.png" alt="" width={650} height={650} />      </section>
+        <Image src="/about.png" alt="" width={650} height={650} />
+      </section>
     </>
   );
 }

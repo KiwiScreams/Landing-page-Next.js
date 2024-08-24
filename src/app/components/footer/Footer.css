@@ -36,3 +36,37 @@ footer .logo li {
   gap: 10px;
   align-items: center;
 }
+@media screen and (max-width: 1000px) {
+  footer {
+    width: 96%;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .footer-top {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  footer .footer-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+  }
+  footer li {
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  footer .logo li {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+  }
+  footer .logo div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+}
