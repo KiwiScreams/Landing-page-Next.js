@@ -1,0 +1,26 @@
+.faq-section {
+  width: 50%;
+  margin: auto;
+  margin-top: 80px;
+}
+.faq-section span {
+  color: var(--tomato-clr);
+}
+.faq-section h2,
+.faq-section h4,
+.faq-section span
+{
+    margin-bottom: 10px;
+}
+.faqs {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.faq-section .faq {
+  width: calc(50% - 10px);
+  border-radius: 4px;
+  padding: 30px;
+  color: var(--black-clr);
+}

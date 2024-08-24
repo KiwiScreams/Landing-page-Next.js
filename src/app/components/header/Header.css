@@ -5,6 +5,15 @@ header {
   align-items: center;
   padding: 20px 170px;
   padding-bottom: 0;
+  position: fixed;
+  background-color: var(--white-clr);
+  top: 0;
+  z-index: 10;
+}
+header.scroll {
+  align-items: center;
+  padding: 5px 100px;
+  box-shadow: 0 0 20px grey;
 }
 header nav ul {
   display: flex;
@@ -34,7 +43,6 @@ nav ul li a::after {
 nav ul li a:hover::after {
   width: 100%;
 }
-nav ul li a.active-page
-{
-    color: var(--tomato-clr);
+nav ul li a.active-page {
+  color: var(--tomato-clr);
 }
