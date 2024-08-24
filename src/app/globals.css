@@ -19,3 +19,15 @@ button, a, .logo
 {
   cursor: pointer;
 }
+button {
+  color: var(--white-clr);
+  background-color: var(--black-clr);
+  width: 180px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: var(--tomato-clr);
+}

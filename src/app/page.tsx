@@ -1,7 +1,18 @@
+import Image from "next/image";
+import "./home.css";
 export default function Home() {
   return (
     <>
-    <h1>Home</h1>
+    <section className="home-section">
+      <div className="container">
+        <div className="text-container">
+          <h1>make the best financial decisions</h1>
+          <p>Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.</p>
+          <button>Get Started</button>
+        </div>
+        <Image src="/phones.png" alt="" width={600} height={700} />
+      </div>
+    </section>
     </>
   );
 }
