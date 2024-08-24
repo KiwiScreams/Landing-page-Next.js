@@ -24,7 +24,7 @@ export default function Footer() {
               +1 234 456 678 89
             </li>
           </ul>
-          <div className="footer-body">
+          {/* <div className="footer-body"> */}
             <ul>
               <h4>Links</h4>
               <li>
@@ -65,7 +65,7 @@ export default function Footer() {
               </li>
             </ul>
           </div>
-        </div>
+        {/* </div> */}
         <div className="footer-bottom">
           <p>Copyright 2022 uifry.com all rights reserved</p>
         </div>

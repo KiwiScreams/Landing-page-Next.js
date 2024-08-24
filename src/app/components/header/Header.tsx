@@ -40,8 +40,8 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="/"
-                className={currentPath === "/contacts" ? "active-page" : ""}
+                href="/contact"
+                className={currentPath === "/contact" ? "active-page" : ""}
               >
                 Contacts
               </Link>

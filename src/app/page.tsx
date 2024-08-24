@@ -36,10 +36,10 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <Image src="/phone1.png" alt="" width={800} height={700} />
+          <Image src="/phone1.png" alt="" width={600} height={700} />
         </div>
         <div className="container">
-          <Image src="/phone2.png" alt="" width={800} height={700} />
+          <Image src="/phone2.png" alt="" width={600} height={700} />
           <div className="text-container">
             <div>
               <h1>make the best financial decisions</h1>
