@@ -16,7 +16,6 @@ export default function About() {
                 aliquet faucibus tincidunt eu adipiscing sociis arcu lorem
                 porttitor.
               </p>
-              <button>Get Started</button>
             </div>
           </div>
         </div>

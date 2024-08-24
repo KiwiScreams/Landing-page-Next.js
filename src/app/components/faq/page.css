@@ -11,6 +11,7 @@
 .faq-section span
 {
     margin-bottom: 10px;
+    text-transform: uppercase;
 }
 .faqs {
   display: flex;

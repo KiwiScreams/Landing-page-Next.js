@@ -41,14 +41,6 @@ export default function Header() {
             <li>
               <Link
                 href="/"
-                className={currentPath === "/technique" ? "active-page" : ""}
-              >
-                Technique
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/"
                 className={currentPath === "/contacts" ? "active-page" : ""}
               >
                 Contacts
