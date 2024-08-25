@@ -1,5 +1,5 @@
 "use client";
-import FAQ from "../components/faq/page";
+import FAQ from "../../components/faq/page";
 import "./page.css";
 import Image from "next/image";
 export default function About() {
