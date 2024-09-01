@@ -5,15 +5,8 @@ header {
   align-items: center;
   padding: 20px 170px;
   padding-bottom: 0;
-  /* position: fixed; */
   background-color: var(--white-clr);
-  /* top: 0; */
   z-index: 10;
-}
-header.scroll {
-  align-items: center;
-  padding: 5px 100px;
-  box-shadow: 0 0 20px grey;
 }
 header nav ul {
   display: flex;

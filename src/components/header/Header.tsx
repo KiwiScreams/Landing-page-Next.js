@@ -6,23 +6,10 @@ import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
 export default function Header() {
   const currentPath = usePathname();
-  const [scrolled, setScrolled] = useState(false);
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 70) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+
   return (
     <>
-      <header className={`${scrolled ? "scroll" : ""}`}>
+      <header>
         <h1 className="logo">
           <Link href="/">
             <Image src="/logo.svg" alt="" width={100} height={50} />
